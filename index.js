@@ -62,7 +62,7 @@ function checkAnswer(currentLevel) {
   } else {
     new Audio('sounds/wrong.mp3').play();
     $("body").addClass("game-over");
-    $("#level-title").text("Game Over, Press 'S' Key to Restart");
+     $("#level-title").text("Game Over, Click 'Here' Key to Restart");
     setTimeout(function () {
       $("body").removeClass("game-over");
     }, 200);

@@ -120,4 +120,11 @@ background-color: (0, 100%, 48.8%);
 }
 
 
+@media (max-width: 992px)
+{
+  .btn {
+    margin: 15px !important;
+    
+  }
 
+}

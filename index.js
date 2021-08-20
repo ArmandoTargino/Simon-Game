@@ -38,8 +38,8 @@ $(".btn").click(function () {
   checkAnswer(userClickedPattern.length - 1);
 });
 
-document.addEventListener("keydown", function (event) {
-  if (event.key === "s" && flag === false) {
+$("#level-title").click(function () {
+  if (flag === false) {
     if(flagMusic===false){
       new Audio('sounds/Human_Being_Home_Alone_(Sci_Fi_Industries_Remix).mp3').play();
       flagMusic=true;
@@ -47,6 +47,7 @@ document.addEventListener("keydown", function (event) {
     nextSequence();
   }
   flag = true;
+
 });
 
 function checkAnswer(currentLevel) {

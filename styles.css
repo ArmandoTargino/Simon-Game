@@ -126,5 +126,8 @@ background-color: (0, 100%, 48.8%);
     margin: 15px !important;
     
   }
+  .container{
+    width: 100%;;
+  }
 
 }

@@ -132,7 +132,7 @@ background-color: (0, 100%, 48.8%);
 
 }
 @media (hover: hover) {
-  button:hover {
+  .button:hover {
       background-color: var(--clr-neon);
   }
 }
